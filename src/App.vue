@@ -2,16 +2,20 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png" />
     <HelloJest />
+    <hr />
+    <Mocking />
   </div>
 </template>
 
 <script>
 import HelloJest from './components/HelloJest.vue';
+import Mocking from './components/Mocking.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloJest
+    HelloJest,
+    Mocking
   }
 };
 </script>
