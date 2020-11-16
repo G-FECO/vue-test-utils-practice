@@ -4,18 +4,26 @@
     <HelloJest />
     <hr />
     <Mocking />
+    <hr />
+    <Parent />
+    <hr />
+    <ListView />
   </div>
 </template>
 
 <script>
 import HelloJest from './components/HelloJest.vue';
 import Mocking from './components/Mocking.vue';
+import Parent from './components/Parent.vue';
+import ListView from './views/ListView.vue';
 
 export default {
   name: 'App',
   components: {
     HelloJest,
-    Mocking
+    Mocking,
+    Parent,
+    ListView
   }
 };
 </script>
